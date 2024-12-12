@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste Treasures</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+            background-color: #ffc107;
+        }
+        .header h1 {
+            color: #fff;
+        }
+        .recipe-image {
+            width: 100%;
+            height: auto;
+        }
+        .recipe-description {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .navbar-custom {
+            background-color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#">Taste Treasures</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Submit Recipe</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    
+    <div class="header">
+        <h1>Welcome to Taste Treasures</h1>
+        <p>Discover and share your favorite recipes with our community!</p>
+    </div>
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="https://media.istockphoto.com/id/2158977651/photo/fried-pork-curry-rice-with-pickled-ginger-on-the-side-from-top-view-isolated-on-white.jpg?s=1024x1024&w=is&k=20&c=3NEP076qClJmJW0bDTnWvkmqoPWOHV04aEsRHE8c76s=" alt="Kare-Kare" class="recipe-image">
+                <div class="recipe-description">
+                    <h2>Kare-Kare</h2>
+                    <p>Enjoy a taste of heaven with our signature dish!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/2150599355/photo/food-photos-various-entrees-appetizers-deserts-etc.jpg?s=1024x1024&w=is&k=20&c=XUtKwWm9SlnhgoPWEeOmq-k4ySNPk7gjmYvgeqcnyJo=" class="card-img-top" alt="Breakfast">
+                    <div class="card-body">
+                        <h5 class="card-title">Breakfast</h5>
+                        <p class="card-text">Start your day with our delicious breakfast recipes.</p>
+                        
+                        <a href="breakfast-recipes.html" class="btn btn-primary">View Recipes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://plus.unsplash.com/premium_photo-1674147611133-be87db07f597?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Lunch">
+                    <div class="card-body">
+                        <h5 class="card-title">Lunch</h5>
+                        <p class="card-text">Find the perfect lunch recipes for your midday meal.</p>
+                        
+                        <a href="lunch-recipes.html" class="btn btn-primary">View Recipes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1605926637512-c8b131444a4b?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Dinner">
+                    <div class="card-body">
+                        <h5 class="card-title">Dinner</h5>
+                        <p class="card-text">End your day with our delightful dinner recipes.</p>
+                        
+                        <a href="dinner-recipes.html" class="btn btn-primary">View Recipes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container">
+       
+        
+        <div class="recipe-description">
+            <h3>Ingredients</h3>
+            <table class="table table-striped">
+               
+
+
+    <div class="container">
+        <h2>Submit Your Recipe</h2>
+        <form>
+            <div class="form-group">
+                <label for="recipeName">Recipe Name</label>
+                <input type="text" class="form-control" id="recipeName" placeholder="Enter recipe name">
+            </div>
+            <div class="form-group">
+                <label for="ingredients">Ingredients</label>
+                <textarea class="form-control" id="ingredients" rows="3" placeholder="List ingredients"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="instructions">Instructions</label>
+                <textarea class="form-control" id="instructions" rows="3" placeholder="Enter instructions"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
