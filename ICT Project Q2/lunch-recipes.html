@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch Recipes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+            background-color: #ffc107;
+        }
+        .header h1 {
+            color: #fff;
+        }
+        .recipe-image {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#">Taste Treasures</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Submit Recipe</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Lunch Recipes</h1>
+        <p>Discover delicious lunch recipes to brighten your midday!</p>
+    </div>
+
+    <!-- Lunch Recipes -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1160335708/photo/ham-and-vegetable-with-whole-wheat-bread-sandwich.jpg?s=1024x1024&w=is&k=20&c=uwYoiVdvmz1FDM7nIo3fuwe2xPwHcws7mylYm5c0dro=" class="card-img-top" alt="Sandwich">
+                    <div class="card-body">
+                        <h5 class="card-title">Sandwich</h5>
+                        <p class="card-text">A tasty sandwich perfect for lunch.</p>
+                        <a href="sandwich-recipe.html" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1588685167/photo/two-young-asian-women-enjoying-salad-as-part-of-their-healthy-lifestyle.jpg?s=1024x1024&w=is&k=20&c=30km4tJANYRvb_M0q22dOgNDjR7n5sw6F-2Ap7-ESEA=" class="card-img-top" alt="Salad">
+                    <div class="card-body">
+                        <h5 class="card-title">Salad</h5>
+                        <p class="card-text">A healthy and refreshing salad.</p>
+                        <a href="salad-recipe.html" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/2049845824/photo/curry-laksa.jpg?s=1024x1024&w=is&k=20&c=BdMewlLsyOI5vMei_ooQ6VsHjSbBX01_TcA6P4oSUXM=" class="card-img-top" alt="Pasta">
+                    <div class="card-body">
+                        <h5 class="card-title">Pasta</h5>
+                        <p class="card-text">A savory pasta dish for a fulfilling lunch.</p>
+                        <a href="pasta-recipe.html" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
